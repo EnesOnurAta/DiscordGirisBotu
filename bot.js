@@ -44,7 +44,7 @@ client.on("guildMemberAdd", async member => {
 
 //Sunucudan bir üye çıkarsa "hayalet-log" isimli kanala resimli çıkışı atar
 client.on("guildMemberRemove", async member => {
-  const channel = member.guild.channels.find('name', 'log');
+  const channel = member.guild.channels.find('name', 'hayalet-log');
   if (!channel) return;
         let username = member.user.username;
         if (channel === undefined || channel === null) return;
