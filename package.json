@@ -1,0 +1,16 @@
+{
+  "name": "hayalet",
+  "version": "1.0.0",
+  "description": "Discord bot",
+  "main": "bot.js",
+  "scripts": {
+    "test": "node bot.js"
+  },
+  "author": "Enes Onur Ata",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^11.3.2",
+    "fs": "0.0.1-security",
+    "jimp": "^0.2.28"
+  }
+}
